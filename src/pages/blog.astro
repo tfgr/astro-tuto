@@ -1,9 +1,6 @@
 ---
 import Link from "../components/Link.astro";
 import Footer from "../components/Footer.astro";
-
-const name = "Tom";
-const primaryColor = "blue";
 ---
 
 <html lang="en">
@@ -13,16 +10,10 @@ const primaryColor = "blue";
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
         <title>Astro</title>
-        <style define:vars={{ primaryColor }}>
-            .name {
-                color: var(--primaryColor);
-            }
-        </style>
     </head>
     <body>
         <Link />
-        <h1>Index</h1>
-        <p>Hi <span class="name">{name}</span>!</p>
+        <h1>Blog</h1>
         <Footer />
     </body>
 </html>
