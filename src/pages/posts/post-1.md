@@ -7,7 +7,7 @@ description: "This is the first post of my new Astro blog."
 image:
     url: "https://images.unsplash.com/photo-1680963551392-f17f6d9eca71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
     alt: "The Astro logo with the word One."
-tags: ["astro", "blogging", "learning in public"]
+tags: ["blogging", "learning in public"]
 ---
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
